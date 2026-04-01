@@ -1,49 +1,42 @@
 <!DOCTYPE html>
-<!-- DTD é o Document Type Definition e informa para o
-navegador a versão do HTML que está sendo carregada.
-Assim o navegador pode carregar um conjunto de 
-bibliotecas de acordo com a versão específica.
- -->
-
-<!-- ATRIBUTOS:
-Os atributos são do tipo chave = valor.
-Ex: lang="pt-BR", isso é um atributo que pode ir em qualquer tag de 
-conteúdo. <html lang="pt-BR"> ... </html>
--->
-
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
-  <title>Página principal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página inicial</title>
 </head>
-
 <body>
-
-  <h1>Home</h1>
-
-  <!-- Parágrafo de apresentação -->
-  <p>
-    Esta é a primeira página do meu site para o trabalho
-    do meu querido professor Alexandre!
-  </p>
-
-  <!-- Linha temática -->
-  <hr>
-
-  <!-- Lista com tópicos -->
-  <ul>
-    <li>Aprender a estrutura básica do HTML</li>
-    <li>Forçar o uso de tags semânticas</li>
-    <li>Praticar o git</li>
-  </ul>
-
-  <!-- Links para outras páginas -->
-  <div>
-    <a href="pagina1.html">Página 1</a> |
-    <a href="paginas/pagina2.html">Página 2</a> |
-  </div>
-
+  <header>
+    <h1>Home</h1>
+    <nav>
+      <ul>
+        <li><a href="./pagina1.html">Página-1</a></li>
+        <li><a href="./paginas/pagina2.html">Página-2</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section> 
+      <h2>Página-1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Pariatur, sit consequuntur? Officiis necessitatibus eaque illo
+          fuga quisquam vel temporibus nisi nemo enim ad dolorum,
+           maiores ab nesciunt dolorem suscipit. Eum?</p>
+    </section>
+    <section>
+      <h2>Página-2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Pariatur, sit consequuntur? Officiis necessitatibus eaque illo
+          fuga quisquam vel temporibus nisi nemo enim ad dolorum,
+           maiores ab nesciunt dolorem suscipit.
+          
+          </p>
+          <a href="">mais...</a>
+          
+          </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Tiago Borges. Todos os direitos reservados</p>
+  </footer>
 </body>
-
 </html>
